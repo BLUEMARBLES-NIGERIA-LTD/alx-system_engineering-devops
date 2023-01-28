@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-# This script is displaying "Holberton School" 10 times
+# This script kills a process using command kill
 
-kill "$(pgrep -f "bash ./4-to_infinity_and_beyond")"
+kill "$(ps -x | pgrep -f beyond)"
