@@ -16,9 +16,9 @@ do
 
     echo "Hi"
 
-  fi
+  if
 
-  echo "Holberton School"
+  echo "Best School"
 
   (( count++ ))
 
