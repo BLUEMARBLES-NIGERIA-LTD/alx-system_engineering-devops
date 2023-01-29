@@ -12,11 +12,11 @@ do
 
   if [ $count -eq 9 ]
 
-  then
+then
 
     echo "Hi"
 
-  if
+  fi
 
   echo "Best School"
 
