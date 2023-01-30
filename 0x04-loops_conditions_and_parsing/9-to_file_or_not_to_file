@@ -1,36 +1,36 @@
 #!/usr/bin/env bash
-# Displays information about the file /etc/passwd
+# Displays information about the file /etc/school
 
-if [ -e "/etc/passwd" ]
+if [ -e "/etc/school" ]
 
 then
 
-  echo "/etc/passwd file exists"
+  echo "/etc/school file exists"
 
-  if [ -s "/etc/passwd" ]
+  if [ -s "/etc/school" ]
 
   then
 
-    echo "/etc/passwd file is not empty"
+    echo "/etc/school file is not empty"
 
   else
 
-    echo "/etc/passwd file is empty"
+    echo "/etc/school file is empty"
 
   fi
 
 
 
-  if [ -f "/etc/passwd" ]
+  if [ -f "/etc/school" ]
 
   then
 
-    echo "/etc/passwd is a regular file"
+    echo "/etc/school is a regular file"
 
   fi
 
 else
 
-  echo "/etc/passwd file does not exist"
+  echo "/etc/school file does not exist"
 
 fi
