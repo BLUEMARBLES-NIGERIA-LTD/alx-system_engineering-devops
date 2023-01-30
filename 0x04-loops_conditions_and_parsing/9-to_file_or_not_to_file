@@ -1,36 +1,36 @@
 #!/usr/bin/env bash
 # Displays information about the file /etc/school
 
-if [ -e "/etc/school" ]
+if [ -e "school" ]
 
 then
 
-  echo "/etc/school file exists"
+  echo "school file exists"
 
-  if [ -s "/etc/school" ]
+  if [ -s "school" ]
 
   then
 
-    echo "/etc/school file is not empty"
+    echo "school file is not empty"
 
   else
 
-    echo "/etc/school file is empty"
+    echo "school file is empty"
 
   fi
 
 
 
-  if [ -f "/etc/school" ]
+  if [ -f "school" ]
 
   then
 
-    echo "/etc/school is a regular file"
+    echo "school is a regular file"
 
   fi
 
 else
 
-  echo "/etc/school file does not exist"
+  echo "school file does not exist"
 
 fi
