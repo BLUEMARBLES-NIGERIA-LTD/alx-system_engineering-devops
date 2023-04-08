@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1aF | awk 'BEGIN{ FS="/" } { if($NF == "" || $NF == ".") { print $0 } else { print $0"," } }' | sort -df | sed 's/^\.\///g'
+ls -xamp
