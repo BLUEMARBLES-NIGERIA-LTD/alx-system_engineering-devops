@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#listening ports
-nc -l -k 98
